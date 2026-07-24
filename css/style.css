@@ -23,6 +23,17 @@ body {
 }
 
 /* NAVBAR */
+/* .navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #0B6B3A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+} */
+
+/* NAVBAR */
 .navbar {
   width: 100%;
   height: 100px;
@@ -31,6 +42,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+
+  /* Added */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 
@@ -440,6 +456,9 @@ body {
     margin-top:20px;
     margin-left:10px;
 }
+
+
+
 
 /* SLIDESHOW */
 .slideshow-container {
@@ -2711,16 +2730,16 @@ footer p {
 
 /* PARISH PASTORAL COUNCIL */
 
-#ParishPastoral{
-  scroll-margin-top: 120;
-}
+  #ParishPastoral{
+    scroll-margin-top: 120;
+  }
 
-.Synodal-card{
-    width:90%;
-    gap:30px;
-    padding:25px;
-    text-align:center;
-}
+  .Synodal-card{
+      width:90%;
+      gap:30px;
+      padding:25px;
+      text-align:center;
+  }
 
   .ParishPastoral-card{
     width:90%;
@@ -3006,6 +3025,7 @@ footer p {
 
     .title p{
         font-size:20px;
+        text-align: center  ;
     }
 
     /* Table Header */
@@ -3532,6 +3552,7 @@ footer p {
 
     .title p{
         font-size:18px;
+        text-align: center;
     }
 
     /* Table Header */
@@ -4525,6 +4546,7 @@ footer p {
 
     .title p{
         font-size:18px;
+        text-align: center;
     }
 
     /* Table Header */
@@ -5535,6 +5557,7 @@ footer p {
 
     .title p{
         font-size:16px;
+        text-align: center;
     }
 
     /* Table Header */
@@ -6264,7 +6287,7 @@ footer p {
     .Barangay p{
         font-size:.9rem;  
         white-space:normal;
-        margin-left:50px;  
+        margin-left:35px;  
     }
 
 /* PARISH STEWARDSHIP TEAM */
@@ -6345,7 +6368,7 @@ footer p {
     width: 90%;
     max-width: 700px;
     display: block;
-    margin: 10px auto;
+    margin: 40px auto;
  }
 
   .StJamesCalendarScedules_popup {
@@ -6455,6 +6478,10 @@ footer p {
 
   .title h2{
       font-size:24px;
+  }
+
+  .title p{
+    text-align: center;
   }
 
   .table-header{
@@ -7204,7 +7231,7 @@ footer p {
       width: 90%;
       max-width: 700px;
       display: block;
-      margin: 10px auto;
+      margin: 40px auto;
   }
 
   .StJamesCalendarScedules_popup {
@@ -7342,6 +7369,7 @@ footer p {
 
     .title p{
         font-size:14px;
+        text-align: center;
     }
 
     .table-header{
